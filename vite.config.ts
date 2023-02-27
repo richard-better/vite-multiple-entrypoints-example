@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: {
+        index: 'src/index.ts',
         'components/markdown-article/article': './src/components/markdown-article/article.tsx',
         'components/rich-text-article/article': './src/components/rich-text-article/article.tsx',
       },
